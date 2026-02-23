@@ -56,15 +56,3 @@ class SettingsScreenTemp extends StatelessWidget {
     );
   }
 }
-
-class WatchHistoryScreenTemp extends StatelessWidget {
-  const WatchHistoryScreenTemp({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(title: const Text('Watch History')),
-      body: const Center(child: Text('Welcome to the Watch History Screen!')),
-    );
-  }
-}
