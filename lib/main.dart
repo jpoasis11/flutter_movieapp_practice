@@ -32,3 +32,15 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+class SettingsScreenTemp extends StatelessWidget {
+  const SettingsScreenTemp({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(title: const Text('Settings')),
+      body: const Center(child: Text('Welcome to the Settings Screen!')),
+    );
+  }
+}
